@@ -7,7 +7,7 @@ RUN apt-get update
 
 ################## BEGIN INSTALLATION ######################
 # Install opejdk
-RUN apt-get install -y default-jdk
+RUN apt-get install -y default-jdk tree
 
 # install git and maven
 RUN  apt-get install -y  git maven
